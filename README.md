@@ -188,4 +188,4 @@ private fun putNumberOnBlocked(
 
 [2]: https://android.googlesource.com/platform/frameworks/base/+/master/telecomm/java/android/telecom/DefaultDialerManager.java#144
 
-[4]: docs/dialog.png
+[4]: docs/dialog.jpg
