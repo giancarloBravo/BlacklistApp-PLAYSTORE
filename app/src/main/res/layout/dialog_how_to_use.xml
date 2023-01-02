@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stepperLayout"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <com.sonu.libraries.materialstepper.MaterialStepper
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/materialStepper"/>
+</LinearLayout>

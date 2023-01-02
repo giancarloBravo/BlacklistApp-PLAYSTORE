@@ -1,0 +1,26 @@
+
+ext.flavorConfigApp = {
+    flavorDimensions "data"
+    productFlavors {
+        prod {
+            dimension "data"
+            resValue "string", "app_name", rootProject.name
+            applicationIdSuffix ".prod"
+            versionCode rootProject.ext.version_code
+            versionName rootProject.ext.version_name
+            buildConfigField("boolean", "LOG", "false")
+            vectorDrawables.useSupportLibrary = true
+            //buildConfigField('String', 'BASE_URL', rootProject.ext.baseUrlProd)
+        }
+        dev {
+            dimension "data"
+            resValue "string", "app_name", rootProject.name + " Alpha"
+            applicationIdSuffix ".alfa"
+            versionCode rootProject.ext.version_code_dev
+            versionName rootProject.ext.version_name_dev
+            buildConfigField("boolean", "LOG", "true")
+            vectorDrawables.useSupportLibrary = true
+            //buildConfigField('String', 'BASE_URL', rootProject.ext.baseURL)
+        }
+    }
+}

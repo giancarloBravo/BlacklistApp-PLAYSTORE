@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/ic_info"
+        android:iconTint="@color/colorAccent"
+        android:orderInCategory="1000"
+        android:title="Filtrar"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_caller"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="200"
+        android:title="Filtrar"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+</menu>

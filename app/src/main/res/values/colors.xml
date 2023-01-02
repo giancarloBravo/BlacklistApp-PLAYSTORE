@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">@color/colorBlue</color>
+    <color name="colorSecondary">@color/colorSec</color>
+    <color name="colorSec">@color/colorSunflower</color>
+    <color name="colorSunflower">#ffc813</color>
+    <color name="color_background_edittext">#F3F3F3</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray5">#80211916</color>
+
+    <color name="colorDialogBackground">#60000000</color>
+
+    <color name="colorBlue">#3087EF</color>
+    <color name="colorTextPrimary">#000</color>
+    <color name="black_semi_transparent">#B2000000</color>
+
+
+    <color name="colorAccentLight">#0078F1</color>
+    <color name="colorAccentDisabled">#8FC9F1</color>
+    <color name="colorAccentDark">#100F9F</color>
+
+    <color name="colorGrayBright1">#C3C4C8</color>
+    <color name="colorGrayBright2">#F3F3F3</color>
+    <color name="colorGrayDark1">#4B4E5A</color>
+    <color name="colorGrayDark2">#0F1323</color>
+
+    <color name="colorRedLight">#BC5464</color>
+
+
+    <color name="colorBlueLight">#0078F1</color>
+    <color name="colorBlueDisabled">#8FC9F1</color>
+    <color name="colorBlueDark">#100F9F</color>
+
+
+    <color name="colorTextBody">@color/colorBlack2</color>
+    <color name="colorBlack2">#211916</color>
+
+    <color name="colorYellow">#ff9d00</color>
+    <color name="colorYellowPress">#fcbf5e</color>
+    <color name="colorYellowDisabled">#FCD984</color>
+
+    <color name="colorRed">#FF2D2D</color>
+    <color name="colorRedPress">#FF6363</color>
+    <color name="colorRedDisabled">#FF969B</color>
+
+    <color name="colorGreen">#128e38</color>
+    <color name="colorGreenPress">#34AE32</color>
+    <color name="colorGreenDisabled">#53895B</color>
+    <color name="colorGreenDark">#1F7433</color>
+
+    <color name="colorGray">#A0A0A0</color>
+    <color name="colorGrayPress">#C0C0C0</color>
+    <color name="colorGrayDisabled">#E6E6E6</color>
+
+
+</resources>

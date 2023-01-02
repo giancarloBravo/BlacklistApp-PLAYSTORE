@@ -1,0 +1,70 @@
+<resources>
+    <string name ="loading"> Aguarde ... </string>
+    <string name = "text_number"> Número </string>
+    <string name = "text_block"> Bloco </string>
+    <string name = "text_remove"> Remover </string>
+    <string name = "text_list">Contatos bloqueados</string>
+    <string name = "text_import"> Importar </string>
+    <string name = "text_export"> Exportar </string>
+
+    <string name = "text_yes"> Sim </string>
+    <string name = "text_no"> Não </string>
+
+    <!-- Confirmação de texto  -->
+    <string name = "text_cancel"> Cancelar </string>
+    <string name = "text_reset"> Redefinir </string>
+    <string name = "text_enter"> Digite </string>
+    <string name = "text_create"> Criar </string>
+    <string name = "text_accept"> Aceitar </string>
+    <string name = "permission_request"> Aceite todas as permissões. Caso contrário, o aplicativo não funcionará corretamente. </string>
+
+    <string name = "step0_1"> Torne este aplicativo o aplicativo de Chamada padrão e aceite as permissões\nExistirá uma caixa de diálogo solicitando que você o aceite </string>
+    <string name = "step0_2"> Aplicativo de chamada padrão </string>
+    <string name = "step0_2_1"> Este aplicativo precisa ser o aplicativo de chamada padrão para modificar/ler/gravar os contatos na lista negra.\nApós importar os números na lista negra, você precisa reverter isso. Haverá instruções na última etapa </string>
+    <string name = "step0_3"> Permissões </string>
+    <string name = "step0_3_1"> Gravar / Ler Arquivos - Para criar o arquivo a ser exportado e para ler esse arquivo para inserir os contatos na lista negra </string>
+
+    <string name = "step1_1"> Abra este aplicativo no telefone antigo e pressione o botão EXPORTAR </string>
+    <string name = "step1_2">"Seleciona um folder e name e espere um pouco e isso criará um arquivo na pasta seleccionada e abrirá um menu COMPARTILHAR "</string>
+
+    <string name = "step2_1"> Você precisa mover o arquivo criado no telefone antigo para o novo. Sugerimos que você faça isso de uma das seguintes maneiras: </string>
+    <string name = "step2_2"> - Funcionalidade SHARE </string>
+    <string name = "step2_2_1"> Usando o menu Compartilhar, envie o arquivo por e-mail para você </string>
+    <string name = "step2_2_2"> Abra o aplicativo de e-mail no novo telefone </string>
+    <string name = "step2_2_3"> Abra a mensagem e baixe o arquivo, o arquivo estará localizado na pasta DOWNLOAD </string>
+    <string name = "step2_3"> - Funcionalidade manual </string>
+    <string name = "step2_3_1"> Conecte seu telefone antigo a um PC </string>
+    <string name = "step2_3_2"> Vá para a pasta DOWNLOAD dentro do seu telefone, localize o arquivo "contacts_blacklist.json" e copie-o para o seu PC (lembre-se de onde você o colou) </string>
+    <string name = "step2_3_3"> Conecte seu novo telefone a um PC </string>
+    <string name = "step2_3_4"> Mova o arquivo do local onde o salvou dentro do PC para a nova pasta DOWNLOAD do telefone (geralmente PHONE-> Armazenamento interno-> Download) </string>
+    <string name = "step2_3_5"> Você pode passar para o PASSO 3 </string>
+
+    <string name = "step3_1">Prima o botão IMPORTAR, seleccione o ficheiro na pasta que colocou e aguarde que o carregador desapareça e pronto.</string>
+    <string name = "step3_2"> Agora você tem todos os seus números bloqueados no novo telefone </string>
+
+    <string name = "step4_1">Clique no ícone do aplicativo na barra de ferramentas para ir a Configurações e alterar o PHONE APP padrão de volta para o anterior</string>
+    <string name = "step4_2"> Ou apenas exclua o aplicativo </string>
+    <string name = "step4_3"> Divirta-se </string>
+
+    <string name = "text_remove_1"> Deseja remover </string>
+    <string name = "text_remove_2"> dos números bloqueados? </string>
+    <string name = "text_export_success"> Arquivo exportado </string>
+    <string name = "text_removed_number"> Número removido da lista negra </string>
+    <string name = "text_added_number"> Número adicionado à lista negra </string>
+    <string name = "text_added_numbers"> Números adicionados à lista negra </string>
+    <string name = "text_not_supported"> Versão Android não suportada </string>
+    <string name = "text_share_subject"> Contatos na lista negra </string>
+    <string name = "text_share_text"> Verifique as instruções e siga-as para importar este arquivo em seu novo telefone </string>
+
+    <string name = "title_information_1"> Exportar lista negra de telefones antigos </string>
+    <string name = "title_information_2"> Mover arquivos para um novo telefone </string>
+    <string name = "title_information_3"> Importar lista negra para um novo telefone </string>
+    <string name="text_file_not_found">"Arquivo não existe, verifique as instruções "</string>
+    <string name="title_information_0">Aplicativo padrão e permisos</string>
+    <string name="title_information_4">"Desfazer aplicativo padrão "</string>
+    <string name="error_write_file">Erro ao modificar arquivo</string>
+    <string name="error_read_file">Erro ao ler o arquivo</string>
+    <string name="error_file">Erro com o arquivo</string>
+    <string name="exit_app">Você quer sair?</string>
+
+</resources>

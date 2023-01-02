@@ -1,0 +1,72 @@
+<resources>
+    <string name="loading">Please wait ...</string>
+    <string name="text_number">Number</string>
+    <string name="text_block">Block</string>
+    <string name="text_remove">Remove</string>
+    <string name="text_list">Blacklisted contacts</string>
+    <string name="text_import">Import</string>
+    <string name="text_export">Export</string>
+
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+
+    <!-- Text confirmation -->
+    <string name="text_cancel">Cancel</string>
+    <string name="text_reset">Reset</string>
+    <string name="text_enter">Enter</string>
+    <string name="text_create">Create</string>
+    <string name="text_accept">Accept</string>
+    <string name="permission_request">Please accept all the permissions.\n otherwise the app wont work correctly</string>
+
+    <string name="step0_1">Please make this app the default Call app and accept permissions\nThere will be a dialog asking for it you need to accept it</string>
+    <string name="step0_2">Default Call app</string>
+    <string name="step0_2_1">This app needs to be the default call app in order to to modify/read/write the blacklisted contacts.\nAfter importing the blacklisted numbers, you need to revert this. There will be instructions in the last step</string>
+    <string name="step0_3">Permissions</string>
+    <string name="step0_3_1">Write/Read Files - In order to create the file to export and to read that file to insert the blacklisted contacts</string>
+
+    <string name="step1_1">Open this app in the old phone and press the EXPORT button</string>
+    <string name="step1_2">Select a folder and name and wait a little and this will create a file in the selected folder and will pop a SHARE menu</string>
+
+    <string name="step2_1">You need to move the file created on the old phone to the new one. We suggest you do it in one of this ways:</string>
+    <string name="step2_2">- SHARE functionality</string>
+    <string name="step2_2_1">Using the Share menu, send the file via email to yourself</string>
+    <string name="step2_2_2">Open the email app in the new phone</string>
+    <string name="step2_2_3">Open the message and download the file, the file will be located in the DOWNLOAD folder</string>
+    <string name="step2_3">- Manual functionality</string>
+    <string name="step2_3_1">Connect your old phone to a PC</string>
+    <string name="step2_3_2">Move to the DOWNLOAD folder inside your phone, locate the file "contacts_blacklist.json" and copy it to your PC (remember where you paste it)</string>
+    <string name="step2_3_3">Connect your new phone to a PC</string>
+    <string name="step2_3_4">Move the file from the location you save it inside your PC to your new phone DOWNLOAD folder(usually PHONE->Internal Storage->Download)</string>
+    <string name="step2_3_5">You can move to STEP 3</string>
+
+    <string name="step3_1">Press the IMPORT button, select the file on the folder you put it and wait for the loader to disappear and we are done</string>
+    <string name="step3_2">You now have all your blocked numbers on the new phone</string>
+
+    <string name="step4_1">Click on the app icon on the toolbar to go to Settings and change the Default PHONE APP back to the previous one</string>
+    <string name="step4_2">Or just delete the app</string>
+    <string name="step4_3">Enjoy</string>
+
+    <string name="text_remove_1">Want to remove </string>
+    <string name="text_remove_2"> from blocked numbers?</string>
+    <string name="text_export_success">File exported</string>
+    <string name="text_removed_number">Number removed from blacklist</string>
+    <string name="text_added_number">Number added to blacklist</string>
+    <string name="text_added_numbers">Numbers added to blacklist</string>
+    <string name="text_not_supported">Android version not supported</string>
+    <string name="text_share_subject">Blacklist contacts</string>
+    <string name="text_share_text">Check the instruction and follow them to import this file in your new phone</string>
+    <string name="text_file_not_found">File doesn\'t exist, check the instructions</string>
+
+    <string name="title_information_0">Default app and permissions</string>
+    <string name="title_information_1">Export blacklist from old phone</string>
+    <string name="title_information_2">Move files to new phone</string>
+    <string name="title_information_3">Import blacklist to new phone</string>
+    <string name="title_information_4">Undo default app</string>
+
+    <string name="error_write_file">Error writting the file</string>
+    <string name="error_read_file">Error reading the file</string>
+    <string name="error_file">Error with the file</string>
+
+    <string name="exit_app">Do you want to exit?</string>
+
+</resources>
