@@ -19,8 +19,6 @@ in [`DefaultDialerManager` hidden class][2]):
 <intent-filter>
     <action android:name="android.intent.action.DIAL" />
     <data android:scheme="tel" />
-</intent-filter><intent-filter>
-<action android:name="android.intent.action.DIAL" />
 </intent-filter>
 ```
 
@@ -76,7 +74,8 @@ Show the native file selector dialog
 registerForActivityResult(ActivityResultContracts.CreateDocument(fileType)) { uri ->
     if (uri != null) {
         showFullScreenLoader()
-
+    }
+}
 
 ```
 
@@ -95,6 +94,7 @@ outputJson = gson.toJson(data)
 launch {
     // Save the data into the selected file
     writeFile(requireContext(), outputJson, uri)
+}
 
 ```
 
