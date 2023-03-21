@@ -3,6 +3,8 @@
 This project shows how to import/ export/ list all the blacklisted phone numbers that you have from
 one phone to another phone.
 
+You can get the app on the playstore https://play.google.com/store/apps/details?id=pe.com.gianca.blockedcontacts.prod
+
 This app uses [`minSdkVersion 23`](app/build.gradle), because that's when the APIs supporting this
 were added.
 
